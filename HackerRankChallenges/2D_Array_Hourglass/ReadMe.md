@@ -1,4 +1,4 @@
-You are given a 6 x 6 2D array. An hourglass in an array is a portion shaped like this:
+You are given a 6 x 6 2D array. An hourglass in an array is a portion shaped like this:  
 a b c  
   d  
 e f g  
