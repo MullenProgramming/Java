@@ -3,7 +3,7 @@ a b c
   d  
 e f g  
 
-For example, if we create an hourglass using the number 1 within an array full of zeros, it may look like this:
+For example, if we create an hourglass using the number 1 within an array full of zeros, it may look like this:  
 1 1 1 0 0 0  
 0 1 0 0 0 0  
 1 1 1 0 0 0  
@@ -11,7 +11,7 @@ For example, if we create an hourglass using the number 1 within an array full o
 0 0 0 0 0 0  
 0 0 0 0 0 0  
 
-Actually, there are many hourglasses in the array above. The three leftmost hourglasses are the following:
+Actually, there are many hourglasses in the array above. The three leftmost hourglasses are the following:  
 1 1 1     1 1 0     1 0 0  
   1         0         0  
 1 1 1     1 1 0     1 0 0  
@@ -25,7 +25,7 @@ There will be exactly 6 lines, each containing 6 integers seperated by spaces. E
 ## Output Format
 Print the answer to this problem on a single line.
 
-### Sample Input
+### Sample Input  
 1 1 1 0 0 0  
 0 1 0 0 0 0  
 1 1 1 0 0 0  
@@ -37,7 +37,7 @@ Print the answer to this problem on a single line.
 19
 
 ### Explanation
-The hourglass which has the largest sum is:
+The hourglass which has the largest sum is:  
 2 4 4  
   2  
 1 2 4  
