@@ -12,9 +12,9 @@ For example, if we create an hourglass using the number 1 within an array full o
 0 0 0 0 0 0  
 
 Actually, there are many hourglasses in the array above. The three leftmost hourglasses are the following:  
-1 1 1     1 1 0     1 0 0  
-  1         0         0  
-1 1 1     1 1 0     1 0 0  
+1 1 1_____1 1 0_____1 0 0  
+  1_________0_________0  
+1 1 1_____1 1 0_____1 0 0  
 
 The sum of an hourglass is the sum of all the numbers within it. The sum for the hourglasses above are 7, 4, and 2, respectively.
 In this problem you have to print the largest sum among all the hourglasses in the array.
@@ -39,5 +39,5 @@ Print the answer to this problem on a single line.
 ### Explanation
 The hourglass which has the largest sum is:  
 2 4 4  
-  2  
+__2__  
 1 2 4  
