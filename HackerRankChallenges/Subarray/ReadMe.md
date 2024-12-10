@@ -27,12 +27,4 @@ Print the number of subarrays of A having negative sums.
 ### Sample Output
 9  
 
-
-
-
-
-
-
-
-
-Thus, we print  on a new line.
+Thus, we print 9 on a new line.
