@@ -29,5 +29,5 @@ India: Rs.12,324.13
 China: ￥12,324.13  
 France: 12 324,13 €  
 
-Explanation
+### Explanation
 Each line contains the value of PAYMENT formatted according to the four countries' respective currencies.
