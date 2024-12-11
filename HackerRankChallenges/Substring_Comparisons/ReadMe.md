@@ -21,16 +21,16 @@ The first line contains a string denoting s.
 The second line contains an integer denoting k.  
 
 ### Constraints
-1 <= s <= 1000
+1 <= s <= 1000  
 s consists of English alphabetic letters only (i.e., [a-zA-Z]).
 
 ### Sample Input 0
-welcometojava
+welcometojava  
 3
 
 ### Sample Output 0
-ava
-wel
+ava  
+wel  
 
 ### Explanation 0
 String "welcometojava" has the following lexicographically-ordered substrings of length k = 3:  
