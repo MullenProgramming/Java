@@ -33,7 +33,7 @@ ava
 wel
 
 ### Explanation 0
-String "welcometojava" has the following lexicographically-ordered substrings of length k = 3:
+String "welcometojava" has the following lexicographically-ordered substrings of length k = 3:  
 ["ava", "com", "elc", "eto", "jav", "lco", "met", "oja", "ome", "toj", "wel"]  
 
 We then return the first (lexicographically smallest) substring and the last (lexicographically largest) substring as two newline-separated values (i.e., ava\nwel).
