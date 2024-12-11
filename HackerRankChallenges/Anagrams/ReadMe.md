@@ -27,7 +27,7 @@ margana
 Anagrams  
 
 ### Explanation 0
-Character	Frequency: anagram	Frequency: margana
+Character	Frequency: anagram	Frequency: margana  
 A or a	3	3  
 G or g	1	1  
 N or n	1	1  
@@ -44,7 +44,7 @@ marganaa
 Not Anagrams  
 
 ### Explanation 1
-Character	Frequency: anagramm	Frequency: marganaa
+Character	Frequency: anagramm	Frequency: marganaa  
 A or a	3	4  
 G or g	1	1  
 N or n	1	1  
@@ -61,7 +61,7 @@ hello
 Anagrams  
 
 ### Explanation 2
-Character	Frequency: Hello	Frequency: hello
+Character	Frequency: Hello	Frequency: hello  
 E or e	1	1  
 H or h	1	1  
 L or l	2	2  
