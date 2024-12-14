@@ -31,5 +31,6 @@ public class Solution {
                 System.out.println("ERROR!");
             }
         } 
+        br.close();
     }
 }
