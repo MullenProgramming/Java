@@ -27,8 +27,8 @@ mary anna
 3  
 
 ### Explanation
-After taking the first input, you have only one pair: (john,tom)
-After taking the second input, you have two pairs: (john, tom) and (john, mary)
-After taking the third input, you still have two unique pairs.
-After taking the fourth input, you have three unique pairs: (john,tom), (john, mary) and (mary, anna)
-After taking the fifth input, you still have three unique pairs.
+After taking the first input, you have only one pair: (john,tom).  
+After taking the second input, you have two pairs: (john, tom) and (john, mary).  
+After taking the third input, you still have two unique pairs.  
+After taking the fourth input, you have three unique pairs: (john,tom), (john, mary) and (mary, anna)  
+After taking the fifth input, you still have three unique pairs.  
