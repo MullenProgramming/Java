@@ -1,1 +1,1 @@
-### LeetCode 150 interview preq questions.
+LeetCode 150 interview prep questions.
