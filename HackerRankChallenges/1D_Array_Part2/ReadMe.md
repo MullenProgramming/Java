@@ -1,3 +1,5 @@
+## Medium Challenge
+
 Let's play a game on an array! You're standing at index 0 of an n-element array named game. From some index i (where 0 <= i <= n), you can perform one of the following moves:
 ### Move Backward: 
 If cell i-1 exists and contains a 0, you can walk back to cell i-1. 
