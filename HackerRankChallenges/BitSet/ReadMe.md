@@ -5,14 +5,14 @@ Given 2 BitSets, B1 and B2, of size N where all bits in both BitSets are initial
 ### Input Format
 The first line contains 2 space-separated integers, N (the length of both BitSets B1 and B2) and M (the number of operations to perform), respectively.
 The M subsequent lines each contain an operation in one of the following forms:  
-AND <set> <set>  
-OR <set> <set>   
-XOR <set> <set>   
-FLIP <set> <index>  
-SET <set> <index>   
+AND set set  
+OR set set   
+XOR set set  
+FLIP set set index  
+SET set index  
 
-In the list above, <set> is the integer 1 or 2, where 1 denotes B1 and 2 denotes B2.
-<index> is an integer denoting a bit's index in the BitSet corresponding to <set>.
+In the list above, set is the integer 1 or 2, where 1 denotes B1 and 2 denotes B2.
+index is an integer denoting a bit's index in the BitSet corresponding to <set>.
 For the binary operations AND, XOR, and OR, operands are read from left to right and the BitSet resulting from the operation replaces the contents of the first operand. For example:
 AND 2 1  
 B2 is the left operand, and B1 is the right operand. This operation should assign the result of B2^B1 to B2.
