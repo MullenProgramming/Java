@@ -17,7 +17,7 @@ public class Solution {
         // Mark current index position as visited.
         visited[idx] = true;
         
-        // Iterate through all possible movements.
+        // Iterate through all possible movements using recursion.
         return canWin(idx+leap, visited, leap, game) ||
                 canWin(idx+1, visited, leap, game) ||
                 canWin(idx-1, visited, leap, game);
