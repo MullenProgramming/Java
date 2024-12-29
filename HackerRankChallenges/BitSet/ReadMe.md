@@ -8,7 +8,7 @@ The M subsequent lines each contain an operation in one of the following forms:
 AND set set  
 OR set set   
 XOR set set  
-FLIP set set index  
+FLIP set index  
 SET set index  
 
 In the list above, set is the integer 1 or 2, where 1 denotes B1 and 2 denotes B2.
