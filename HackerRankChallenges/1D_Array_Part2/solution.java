@@ -36,5 +36,6 @@ public class Solution {
             );
             System.out.println(canWin(0, new boolean[game.size()], leap, game) ? "YES" : "NO");
         }
+        br.close();
     }
 }
