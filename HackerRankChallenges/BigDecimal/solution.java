@@ -35,6 +35,7 @@ public class Solution {
         for (String value : s) {
             System.out.println(value);
         }
+        br.close();
     }
 }
 
