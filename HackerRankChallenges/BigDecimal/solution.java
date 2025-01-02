@@ -7,10 +7,10 @@ public class Solution {
     public static void main(String[] args) throws IOException {
     // Read in and set up variables and values.
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int n = Integer.parseInt(br.readLine());
+        int n = Integer.parseInt(br.readLine().trim());
         String[] s = new String[n];
         for (int i = 0; i < n; i++) {
-            s[i] = br.readLine();
+            s[i] = br.readLine().trim();
         }
 
     // Sort the array per the directions.
