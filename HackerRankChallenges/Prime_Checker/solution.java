@@ -3,6 +3,7 @@ import java.util.*;
 import java.math.*;
 import java.lang.reflect.*;
 
+// --- More efficient solution at bottom--- 
 // ***************************** MY CODE BELOW *****************************
 class Prime {
     public void checkPrime(String... args){
@@ -60,3 +61,29 @@ public class Solution {
 }
 
 // Not the most efficient solution, but good if the numbers are very large.
+// -----------------------------------------------------------------------------------------------------
+// A more efficient solution below (works better with smaller numbers (O(sqrt(n))). Replace Prime class with below:
+// NOTE: Not my code.
+
+class Prime {
+	public static boolean isPrime(int n){
+		if (number <= 1) return false;
+		if (number <= 3) return true; // 2 and 3 are prime
+		if (number % 2 == 0 || number % 3 == 0) return false;
+		
+		for (int i = 5; i * i <= number; i += 6) { // Check divisors of the form 6k ± 1
+		    if (number % i == 0 || number % (i + 2) == 0) return false;
+		}
+		return true;
+	}
+	
+	public static void checkPrime(String... args) {
+	        for (String arg : args) {
+	            int num = Integer.parseInt(arg);
+	            if (isPrime(num)) {
+	                System.out.printf("%s ", arg);
+	            }
+	        }
+	        System.out.println();
+	}
+}
