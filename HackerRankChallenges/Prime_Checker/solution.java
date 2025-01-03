@@ -18,13 +18,13 @@ class Prime {
 
 public class Solution {
 	public static void main(String[] args) {
-		try{
-  		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-  		String n1 = br.readLine();
-  		String n2 = br.readLine();
-      String n3 = br.readLine();
-      String n4 = br.readLine();
-      String n5 = br.readLine();
+	    try{
+	        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		String n1 = br.readLine();
+		String n2 = br.readLine();
+	        String n3 = br.readLine();
+	        String n4 = br.readLine();
+	        String n5 = br.readLine();
 // ************************************************************************  
       
   		Prime ob=new Prime();
@@ -32,9 +32,11 @@ public class Solution {
   		ob.checkPrime(n1,n2);
   		ob.checkPrime(n1,n2,n3);
   		ob.checkPrime(n1,n2,n3,n4,n5);	
+		    
   		Method[] methods=Prime.class.getDeclaredMethods();
   		Set<String> set=new HashSet<>();
   		boolean overload=false;
+		    
   		for(int i=0;i<methods.length;i++)
   		{
   			if(set.contains(methods[i].getName()))
@@ -45,10 +47,10 @@ public class Solution {
   			set.add(methods[i].getName());
   			
   		}
-  		if(overload)
-  		{
-  			throw new Exception("Overloading not allowed");
-  		}
+	  		if(overload)
+	  		{
+	  		    throw new Exception("Overloading not allowed");
+	  		}
 		}
 		catch(Exception e)
 		{
