@@ -8,7 +8,7 @@ public class Solution {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
         
-        String regex = "^[a-zA-Z][a-zA-Z0-9_]{7,29}$";
+        String regex = "^[a-zA-Z][a-zA-Z0-9_]{7,29}$"; // Explanation at the bottom.
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher;
         
