@@ -9,7 +9,7 @@ public class Solution {
         int n = Integer.parseInt(br.readLine().trim());
         Pattern pattern = Pattern.compile("<([^>]+)>([^<]+)</\\1>"); // Explanation at the bottom.
         
-        while(n-- >0){
+        while(n-- > 0){
             String line = br.readLine().trim();
             Matcher matcher = pattern.matcher(line);
             boolean found = false;
