@@ -25,7 +25,7 @@ public class Solution {
                     // else {
                     //     stack.pop(); // If all good, pop the stack.
                     // }
-                    // We don't need the above since stack.pop() was called in the previous IF statement.
+                    // I removed the above since stack.pop() was called in the previous IF statement.
                     // Was previously stack.peek().
                 }
             }
