@@ -19,11 +19,14 @@ public class Solution {
                 } else {
                     if(stack.empty()){
                         return false; // If the stack is empty and starts with a closing bracket, returns false.
-                    } else if(!matches(stack.peek(), c)){
+                    } else if(!matches(stack.pop(), c)){
                         return false; // If the open and closing brackets don't match, returns false.
-                    } else {
-                        stack.pop(); // If all good, pop the stack.
-                    }
+                    } 
+                    // else {
+                    //     stack.pop(); // If all good, pop the stack.
+                    // }
+                    // We don't need the above since stack.pop() was called in the previous IF statement.
+                    // Was previously stack.peek().
                 }
             }
             return stack.empty() ? true : false;
