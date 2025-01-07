@@ -12,14 +12,14 @@ public class Solution {
         while(n-- > 0){
             String line = br.readLine().trim();
             Matcher matcher = pattern.matcher(line);
-            boolean found = false;
+            boolean valid = false;
             
             while (matcher.find()) {
                 System.out.println(matcher.group(2));
-                found = true;
+                valid = true;
             }
             
-            if (!found) {
+            if (!valid) {
                 System.out.println("None");
             }
         }
