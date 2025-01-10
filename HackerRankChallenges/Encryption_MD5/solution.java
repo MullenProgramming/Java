@@ -2,7 +2,7 @@ import java.io.*;
 import java.security.MessageDigest;
 import javax.xml.bind.DatatypeConverter;
 
-// Fr=or this algorithm, Java 8 must be used if using the DatatypeConverter().
+// For this algorithm, Java 8 must be used if using the DatatypeConverter().
 
 public class Solution {
     private static String hashString(String s){
