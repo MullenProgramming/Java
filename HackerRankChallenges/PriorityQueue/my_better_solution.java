@@ -1,3 +1,8 @@
+// This solution is a shorter and better solution than what the challenge requests, however since the challenge
+// blocks the main method, this will actually not print out anything if ran through HackerRanks code checker.
+//
+// This class solution utilized Java's PriorityQueue instead of needing to make a custom Priorities class.
+
 import java.io.*;
 import java.util.*;
 
