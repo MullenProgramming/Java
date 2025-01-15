@@ -36,7 +36,7 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 
 ### Example 2:
 
-####Input: 
+#### Input: 
 `nums = [0,1,2,2,3,0,4,2], val = 2`  
 
 #### Output:
