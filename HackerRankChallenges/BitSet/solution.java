@@ -7,7 +7,6 @@ public class Solution {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String[] firstLine = br.readLine().trim().split("\\s+");
 
-      // No idea why BitSet b1, b2 = new BitSet(Integer.parseInt(firstLine[0])); doesn't work.
         BitSet b1 = new BitSet(Integer.parseInt(firstLine[0]));
         BitSet b2 = new BitSet(Integer.parseInt(firstLine[0]));
       // Number of loops of instructions
